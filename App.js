@@ -15,6 +15,7 @@ import * as ImagePicker from "./node_modules/expo-image-picker";
 import logo from "./assets/zenLogo.jpeg";
 
 export default function App() {
+  var x = 54;
   let op = async () => {
     let permission = await ImagePicker.getCameraPermissionsAsync();
     if (permission.granted === false) {
